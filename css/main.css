@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: "Open Sans";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  -webkit-box-shadow: 0px 1px 3px 0 rgba(155, 155, 155, 0.2);
+          box-shadow: 0px 1px 3px 0 rgba(155, 155, 155, 0.2);
+  background-color: #fbfbfb;
+}
+
+header .container {
+  height: 48px;
+  line-height: 48px;
+  color: #646464;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header-adress {
+  padding-right: 12px;
+  border-right: 1px solid #e6e5e5;
+  margin-right: 10px;
+}
+
+header .social-icon + .social-icon {
+  margin-left: 12px;
+}
+
+header .social-icon:hover {
+  color: #43a906;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
