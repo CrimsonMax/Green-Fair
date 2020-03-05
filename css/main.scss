@@ -8,6 +8,15 @@ $roboto-slab: 'Roboto Slab', ;
     grid-row: span 2;
 }
 
+.rows-2 {
+    grid-column: span 2;
+}
+
+.column-fill {
+    grid-row: span 4;
+    grid-column: span 2;
+}
+
 body {
     margin: 0px;
     font-family: 'Open Sans', ;
@@ -48,6 +57,100 @@ header {
         cursor: pointer;
     }
 }
+
+.slider {
+    background-color: #bdbebd;
+    height: 785px;
+
+    .container {
+        padding-top: 273px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .protect {
+        font-size: 45px;
+        letter-spacing: -0.23px;
+        color: #ffffff;
+        text-transform: uppercase;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .nature {
+        width: 1018px;
+        height: 124px;
+        font-family: Lato;
+        font-size: 72px;
+        font-weight: bold;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        height: 60px;
+        line-height: 60px;
+        padding-top: 32px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .description {
+        padding-top: 34px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        width: 641px;
+        height: 18px;
+        font-family: Lato;
+        font-size: 20px;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+
+    .this-button {
+        padding-top: 46px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+
+        .more {
+            width: 180px;
+            height: 57px;
+            border-radius: 2px;
+            background-color: #101010;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+    }
+
+    .circle {
+        padding-top: 189px;
+        padding-right: 0px;
+        padding-bottom: 31px;
+        padding-left: 0px;
+
+        .fa-circle {
+            width: 13px;
+            height: 13px;
+            color: #f5f5f5;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .fa-circle + .fa-circle {
+            margin-left: 7px;
+        }
+    }
+
+ }
 
 .navigation-panel {
     .logo-text {
@@ -112,10 +215,15 @@ header {
     }
 }
 
- #tmp {
-    background-color: #393939;
-    height: 785px;
-}
+ #tmp2 {
+    background-color: rgb(224, 16, 16);
+    height: 645px;
+ }
+
+ #tmp3 {
+    background-color: rgb(94, 23, 209);
+    height: 302px;
+ }
 
 .latest-work {
     .container {
@@ -162,6 +270,7 @@ header {
 
         &.active {
             background-color: #43a906;
+            color: #ffffff;
         }
     }
 
@@ -212,3 +321,149 @@ header {
     }
 
 }
+
+#tmp4 {
+    background-color: rgb(26, 14, 14);
+    height: 567px;
+ }
+
+#tmp5 {
+    background-color: rgb(190, 224, 37);
+    height: 955px;
+ }
+
+#tmp6 {
+    background-color: rgb(233, 86, 118);
+    height: 682px;
+ }
+
+#tmp7 {
+    background-color: rgb(4, 113, 133);
+    height: 927px;
+ }
+
+#tmp8 {
+    background-color: rgb(10, 173, 51);
+    height: 200px;
+ }
+
+#tmp9 {
+    background-color: rgb(207, 132, 34);
+    height: 200px;
+ }
+ 
+ .map-and-adress {
+     height: 852px;
+     background-color: #eeeeee;
+
+     .container {
+        padding: 114px 0;
+    }
+
+    h2 {
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        color: #222222;
+        font-family: $roboto-slab;
+        text-transform: uppercase;
+        margin: 0px;
+        height: 27px;
+        line-height: 27px;
+    }
+
+    .section-description {
+        max-width: 880px;
+        margin: 30px auto 60px auto;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.75;
+        color: #393939;
+    }
+
+    .mini-head {
+        width: 197px;
+        height: 17px;
+        font-family: $roboto-slab;
+        font-size: 22px;
+        text-align: center;
+        color: #222222;
+        text-transform: uppercase;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 33px;
+        padding-left: 0px;
+    }
+
+    .adress-info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .our-office {
+        display: inline-block;
+
+        .official-data {
+            width: 275px;
+            height: 15px;
+            font-size: 14px;
+            text-align: left;
+            color: #696969;
+        }
+    }
+
+    .form-factor {
+        display: inline-block;
+
+        .grid-form {
+            display: grid;
+            grid-template-rows: repeat(6, 50px);
+            grid-template-columns: repeat(2, 280px);
+            row-gap: 20px;
+            column-gap: 10px;
+        }
+    }
+
+    .map-in-doc {
+        padding: 46px 0px;
+    }
+
+    .mapper {
+        margin-right: 12px;
+    }
+
+    .sub-button {
+        padding: 30px 0px;
+
+        .subsub {
+            width: 200px;
+            height: 50px;
+            border-radius: 2px;
+            background-color: #43a906;
+            font-family: $roboto-slab;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+
+ }
+
+.end {
+    background-color: #222222;
+    height: 90px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text {
+        height: 15px;
+        line-height: 90px;
+        font-family: OpenSans;
+        font-size: 14px;
+        color: #ffffff;
+    }
+ }
