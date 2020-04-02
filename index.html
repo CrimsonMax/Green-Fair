@@ -47,7 +47,7 @@
             </nav>
         </div>
     </section>
-    <section class="slider">
+    <section class="slider first">
         <div class="slider-block">
             <img src="/img/slide1.jpg" class="slider-img">
             <div class="slider-text">
@@ -82,10 +82,55 @@
             </div>
         </div>
         <div class="circle">
-            <button class="slider-dot"></button>
-            <button class="slider-dot active"></button>
-            <button class="slider-dot"></button>
-            <!-- <i class="far fa-circle"></i> -->
+            <button class="slider-dot" onclick="onButtonClick(event)"></button>
+            <button class="slider-dot active" onclick="onButtonClick(event)"></button>
+            <button class="slider-dot" onclick="onButtonClick(event)"></button>
+        </div>
+    </section>
+    <br>
+    <section class="slider second">
+        <div class="carusel-lens">
+            <div class="carusel-slides">
+            <div class="slider-block">
+            <img src="/img/slide1.jpg" class="slider-img">
+            <div class="slider-text">
+                <div class="protect">Save</div>
+                <div class="nature">Trees and animals</div>
+                <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>   
+                <div class="this-button">
+                    <button class="more">Read more</button>
+                </div>
+            </div>
+            </div>
+            <div class="slider-block active">
+            <img src="/img/slide2.jpg" class="slider-img">
+            <div class="slider-text">
+                <div class="protect">Protect</div>
+                <div class="nature">Nature the environment</div>
+                <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>   
+                <div class="this-button">
+                    <button class="more">Read more</button>
+                </div>
+            </div>
+            </div>
+            <div class="slider-block">
+            <img src="/img/slide3.jpg" class="slider-img">
+            <div class="slider-text">
+                <div class="protect">Kill</div>
+                <div class="nature">All the humans</div>
+                <div class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>   
+                <div class="this-button">
+                    <button class="more">Read more</button>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="circle">
+            <button class="slider-dot active" onclick="onButtonClick2(event)"></button>
+            <button class="slider-dot" onclick="onButtonClick2(event)"></button>
+            <button class="slider-dot" onclick="onButtonClick2(event)"></button>
         </div>
     </section>
     <section id="tmp2"></section>
@@ -199,5 +244,9 @@
             </div>
         </div>
     </footer>
+    
+    
+    
+    <script src="./site.js"></script>
 </body>
 </html>
